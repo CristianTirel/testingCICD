@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/my-image:${{ env.LOWER_SHA }}
+          tags: ghcr.io/cristiantirel/my-image:${{ env.LOWER_SHA }}
