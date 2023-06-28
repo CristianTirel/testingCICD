@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/cristiantirel/my-image:${{ env.LOWER_SHA }}
+          tags: ghcr.io/flutter-global/my-image-test:${{ env.LOWER_SHA }}
